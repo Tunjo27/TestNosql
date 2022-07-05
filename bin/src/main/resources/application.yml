@@ -1,0 +1,13 @@
+application:
+  environment: 
+  - develop
+  - feature
+  - qa
+server:
+  port: 8989
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: TiendaDeLibros
